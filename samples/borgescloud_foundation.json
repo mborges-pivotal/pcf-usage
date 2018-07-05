@@ -1,0 +1,610 @@
+[
+  {
+    "apps": [
+      {
+        "name": "p-invitations-green",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-02-07T03:17:13Z"
+      },
+      {
+        "name": "apps-manager-js-green",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "nodejs_buildpack",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-02-07T03:17:13Z"
+      },
+      {
+        "name": "nfsbroker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "517aaaa3-b340-48d4-8bc1-c9c8a6a3418e",
+        "updated": "2018-02-07T03:25:36Z"
+      },
+      {
+        "name": "p-invitations-blue",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-01-26T05:07:11Z"
+      },
+      {
+        "name": "apps-manager-js-blue",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 2,
+        "buildpack": "nodejs_buildpack",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-01-26T05:07:11Z"
+      },
+      {
+        "name": "pivotal-account-cold",
+        "memory": 768,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "1a734140-56a6-4f23-b622-e44294816697",
+        "updated": "2018-01-26T05:08:57Z"
+      },
+      {
+        "name": "identity-service-broker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.4.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.7.1\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#6a3361a java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk...",
+        "space": "d01156ab-1e03-4ad7-b4c2-b76b295762d3",
+        "updated": "2018-01-26T05:18:39Z"
+      },
+      {
+        "name": "resource-server-sample",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+        "updated": "2018-01-31T04:18:36Z"
+      },
+      {
+        "name": "authcode-sample",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+        "updated": "2018-01-31T03:49:51Z"
+      },
+      {
+        "name": "clientcredentials-sample",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+        "updated": "2018-01-30T06:02:35Z"
+      },
+      {
+        "name": "SMOKES-1-APP-c8a5ad622bdc7b80",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "ruby",
+        "space": "a20c2936-34bf-4c1f-b1e0-4c65c9e0fbde",
+        "updated": "2018-02-07T02:43:37Z"
+      },
+      {
+        "name": "app-usage-scheduler",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-02-07T03:10:22Z"
+      },
+      {
+        "name": "app-usage-server",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 2,
+        "buildpack": "ruby_buildpack",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-02-07T03:10:22Z"
+      },
+      {
+        "name": "app-usage-worker-venerable",
+        "memory": 2048,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-02-07T03:10:22Z"
+      },
+      {
+        "name": "notifications-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "binary_buildpack",
+        "space": "a689e5fe-1fc3-4500-a96d-694a07d289d2",
+        "updated": "2018-02-07T03:20:01Z"
+      },
+      {
+        "name": "pivotal-account",
+        "memory": 768,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "1a734140-56a6-4f23-b622-e44294816697",
+        "updated": "2018-02-07T03:20:44Z"
+      },
+      {
+        "name": "autoscale",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 3,
+        "buildpack": "binary_buildpack",
+        "space": "cf04e8b0-21a0-4a96-b695-6a4e0153e975",
+        "updated": "2018-02-07T03:24:01Z"
+      },
+      {
+        "name": "green-identity-service-broker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.4.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.7.1\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#6a3361a java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk...",
+        "space": "d01156ab-1e03-4ad7-b4c2-b76b295762d3",
+        "updated": "2018-02-07T03:28:27Z"
+      },
+      {
+        "name": "app-usage-worker",
+        "memory": 2048,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "updated": "2018-02-07T16:12:38Z"
+      },
+      {
+        "name": "multi-test",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+        "updated": "2018-03-08T07:32:17Z"
+      },
+      {
+        "name": "lifecycle-1--c2de65028912e63c",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "e91deac0-d6ea-4744-b3ed-1f370ffbc7f8",
+        "updated": "2018-03-27T08:14:59Z"
+      },
+      {
+        "name": "p-dataflow-1.0.1",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "22be2968-6885-43c3-b979-0ad7cc7a92b3",
+        "updated": "2018-04-27T21:27:26Z"
+      },
+      {
+        "name": "skipper",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": null,
+        "space": "c67babdf-6344-4298-9ffe-70afd7f04823",
+        "updated": "2018-03-27T20:23:40Z"
+      },
+      {
+        "name": "dataflow",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.4.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.7.1\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#6a3361a java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk...",
+        "space": "c67babdf-6344-4298-9ffe-70afd7f04823",
+        "updated": "2018-03-27T20:23:43Z"
+      },
+      {
+        "name": "skipper",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.4.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.7.1\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#6a3361a java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk...",
+        "space": "20eb5392-3f3c-4224-9bcd-622e1bedcc74",
+        "updated": "2018-04-12T05:35:16Z"
+      },
+      {
+        "name": "dataflow",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.4.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.7.1\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#6a3361a java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk...",
+        "space": "20eb5392-3f3c-4224-9bcd-622e1bedcc74",
+        "updated": "2018-04-12T05:35:18Z"
+      },
+      {
+        "name": "words-log-v1",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/java-buildpack.git#v4.7.1",
+        "space": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d",
+        "updated": "2018-04-12T05:52:20Z"
+      },
+      {
+        "name": "words-splitter-v1",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/java-buildpack.git#v4.7.1",
+        "space": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d",
+        "updated": "2018-04-12T05:52:22Z"
+      },
+      {
+        "name": "words-http-v1",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/java-buildpack.git#v4.7.1",
+        "space": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d",
+        "updated": "2018-04-12T05:52:24Z"
+      },
+      {
+        "name": "simple",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "php 4.3.43",
+        "space": "8e7861b5-dcf5-43b9-8883-61d697e327f4",
+        "updated": "2018-05-03T18:37:20Z"
+      }
+    ]
+  },
+  {
+    "orgs": [
+      {
+        "org_guid": "70840789-1634-4362-bc80-adbb0e656263",
+        "name": "system"
+      },
+      {
+        "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622",
+        "name": "mborges-org"
+      },
+      {
+        "org_guid": "c60b1b1f-2cad-4bd6-814b-953b0ec8067c",
+        "name": "p-dataflow"
+      }
+    ]
+  },
+  {
+    "service_instances": [
+      {
+        "name": "sample-instance",
+        "service_guid": "c5cb3703-3b5f-4cf8-8a75-4520b69c7b18",
+        "space_guid": "13a07f50-b222-46df-9023-1f22ca1ab40d"
+      },
+      {
+        "name": "p-dataflow-db",
+        "service_guid": "2b489054-7dab-4d49-bc67-9880bad8dff7",
+        "space_guid": "22be2968-6885-43c3-b979-0ad7cc7a92b3"
+      },
+      {
+        "name": "scdf-test",
+        "service_guid": "f2d7e869-0c1b-4ddd-97aa-53ab0e6ac30a",
+        "space_guid": "229b5be2-d16e-4e6e-8c68-078461855cc1"
+      },
+      {
+        "name": "skipper-relational",
+        "service_guid": "2b489054-7dab-4d49-bc67-9880bad8dff7",
+        "space_guid": "c67babdf-6344-4298-9ffe-70afd7f04823"
+      },
+      {
+        "name": "df-relational",
+        "service_guid": "2b489054-7dab-4d49-bc67-9880bad8dff7",
+        "space_guid": "c67babdf-6344-4298-9ffe-70afd7f04823"
+      },
+      {
+        "name": "df-analytics",
+        "service_guid": "186c2892-b363-4247-b7ef-7d01d6d8af5d",
+        "space_guid": "c67babdf-6344-4298-9ffe-70afd7f04823"
+      },
+      {
+        "name": "analytics-173b36d5-7439-4fff-93f5-8dff56346a7c",
+        "service_guid": "3705c5a6-ff98-4fd2-b5fd-297380f6a9ab",
+        "space_guid": "229b5be2-d16e-4e6e-8c68-078461855cc1"
+      },
+      {
+        "name": "relational-173b36d5-7439-4fff-93f5-8dff56346a7c",
+        "service_guid": "893db9a1-7445-4232-9313-ac5597ce693c",
+        "space_guid": "229b5be2-d16e-4e6e-8c68-078461855cc1"
+      },
+      {
+        "name": "messaging-173b36d5-7439-4fff-93f5-8dff56346a7c",
+        "service_guid": "d56c18f1-6320-4172-b2c3-f2733fe9a4b9",
+        "space_guid": "229b5be2-d16e-4e6e-8c68-078461855cc1"
+      },
+      {
+        "name": "df-messaging",
+        "service_guid": "4bbd28e8-358f-4544-8281-2012100d73a8",
+        "space_guid": "c67babdf-6344-4298-9ffe-70afd7f04823"
+      },
+      {
+        "name": "rabbitmq-1",
+        "service_guid": "4bbd28e8-358f-4544-8281-2012100d73a8",
+        "space_guid": "13a07f50-b222-46df-9023-1f22ca1ab40d"
+      },
+      {
+        "name": "rabbitmq-2",
+        "service_guid": "4bbd28e8-358f-4544-8281-2012100d73a8",
+        "space_guid": "13a07f50-b222-46df-9023-1f22ca1ab40d"
+      },
+      {
+        "name": "dataflow-server",
+        "service_guid": "f2d7e869-0c1b-4ddd-97aa-53ab0e6ac30a",
+        "space_guid": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d"
+      },
+      {
+        "name": "skipper-relational",
+        "service_guid": "2b489054-7dab-4d49-bc67-9880bad8dff7",
+        "space_guid": "20eb5392-3f3c-4224-9bcd-622e1bedcc74"
+      },
+      {
+        "name": "df-analytics",
+        "service_guid": "186c2892-b363-4247-b7ef-7d01d6d8af5d",
+        "space_guid": "20eb5392-3f3c-4224-9bcd-622e1bedcc74"
+      },
+      {
+        "name": "messaging-b7edbf5d-ef0f-4e44-960d-d6d024243219",
+        "service_guid": "d56c18f1-6320-4172-b2c3-f2733fe9a4b9",
+        "space_guid": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d"
+      },
+      {
+        "name": "df-relational",
+        "service_guid": "2b489054-7dab-4d49-bc67-9880bad8dff7",
+        "space_guid": "20eb5392-3f3c-4224-9bcd-622e1bedcc74"
+      },
+      {
+        "name": "analytics-b7edbf5d-ef0f-4e44-960d-d6d024243219",
+        "service_guid": "3705c5a6-ff98-4fd2-b5fd-297380f6a9ab",
+        "space_guid": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d"
+      },
+      {
+        "name": "relational-b7edbf5d-ef0f-4e44-960d-d6d024243219",
+        "service_guid": "893db9a1-7445-4232-9313-ac5597ce693c",
+        "space_guid": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d"
+      },
+      {
+        "name": "df-messaging",
+        "service_guid": "4bbd28e8-358f-4544-8281-2012100d73a8",
+        "space_guid": "20eb5392-3f3c-4224-9bcd-622e1bedcc74"
+      },
+      {
+        "name": "redis",
+        "service_guid": "186c2892-b363-4247-b7ef-7d01d6d8af5d",
+        "space_guid": "8e7861b5-dcf5-43b9-8883-61d697e327f4"
+      },
+      {
+        "name": "rabbit",
+        "service_guid": "4bbd28e8-358f-4544-8281-2012100d73a8",
+        "space_guid": "8e7861b5-dcf5-43b9-8883-61d697e327f4"
+      },
+      {
+        "name": "auto-scaler",
+        "service_guid": "656c63a8-4d86-4553-96d3-0da7d567424f",
+        "space_guid": "8e7861b5-dcf5-43b9-8883-61d697e327f4"
+      }
+    ]
+  },
+  {
+    "services": [
+      {
+        "service_guid": "656c63a8-4d86-4553-96d3-0da7d567424f",
+        "label": "app-autoscaler",
+        "service_broker_guid": "ce152990-ce8f-4e6d-b4c4-da717f61147c"
+      },
+      {
+        "service_guid": "63aefe62-998f-4e3e-9ede-fbb050ce492d",
+        "label": "nfs",
+        "service_broker_guid": "3635f7d0-4fa1-4264-a5bc-a7f5b1d1f695"
+      },
+      {
+        "service_guid": "c5cb3703-3b5f-4cf8-8a75-4520b69c7b18",
+        "label": "p-identity",
+        "service_broker_guid": "cce6f0aa-733a-4046-9bba-2a01a539b3a2"
+      },
+      {
+        "service_guid": "186c2892-b363-4247-b7ef-7d01d6d8af5d",
+        "label": "p-redis",
+        "service_broker_guid": "30c5b38d-363a-4d2d-9e7a-26fb62a99ade"
+      },
+      {
+        "service_guid": "8afb62be-9a8e-4fc6-a172-30c700c09555",
+        "label": "p.redis",
+        "service_broker_guid": "49b241d7-8225-42fd-80d8-444778f40267"
+      },
+      {
+        "service_guid": "4bbd28e8-358f-4544-8281-2012100d73a8",
+        "label": "p-rabbitmq",
+        "service_broker_guid": "2e1e0ae6-152e-41b8-909f-d60b53a39cba"
+      },
+      {
+        "service_guid": "13cd8431-28f1-4a65-a7f4-82ab12c50f31",
+        "label": "p.rabbitmq",
+        "service_broker_guid": "a8f6eca3-4b39-437f-92ef-206695f4a7ec"
+      },
+      {
+        "service_guid": "2b489054-7dab-4d49-bc67-9880bad8dff7",
+        "label": "p-mysql",
+        "service_broker_guid": "b30ed526-2bc5-4df8-ad78-66926f965bec"
+      },
+      {
+        "service_guid": "f2d7e869-0c1b-4ddd-97aa-53ab0e6ac30a",
+        "label": "p-dataflow",
+        "service_broker_guid": "47ddd5e7-adc3-43b4-a2fa-423c44603b5e"
+      },
+      {
+        "service_guid": "d56c18f1-6320-4172-b2c3-f2733fe9a4b9",
+        "label": "p-dataflow-messaging",
+        "service_broker_guid": "47ddd5e7-adc3-43b4-a2fa-423c44603b5e"
+      },
+      {
+        "service_guid": "893db9a1-7445-4232-9313-ac5597ce693c",
+        "label": "p-dataflow-relational",
+        "service_broker_guid": "47ddd5e7-adc3-43b4-a2fa-423c44603b5e"
+      },
+      {
+        "service_guid": "3705c5a6-ff98-4fd2-b5fd-297380f6a9ab",
+        "label": "p-dataflow-analytics",
+        "service_broker_guid": "47ddd5e7-adc3-43b4-a2fa-423c44603b5e"
+      }
+    ]
+  },
+  {
+    "spaces": [
+      {
+        "space_guid": "2ed344de-4e86-469f-985d-05a4f1c56b61",
+        "name": "system",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "a689e5fe-1fc3-4500-a96d-694a07d289d2",
+        "name": "notifications-with-ui",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "1a734140-56a6-4f23-b622-e44294816697",
+        "name": "pivotal-account-space",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "cf04e8b0-21a0-4a96-b695-6a4e0153e975",
+        "name": "autoscaling",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "517aaaa3-b340-48d4-8bc1-c9c8a6a3418e",
+        "name": "nfs",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "d01156ab-1e03-4ad7-b4c2-b76b295762d3",
+        "name": "identity-service-space",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+        "name": "development",
+        "org": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+      },
+      {
+        "space_guid": "8e7861b5-dcf5-43b9-8883-61d697e327f4",
+        "name": "test",
+        "org": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+      },
+      {
+        "space_guid": "fa2728b0-2558-48c8-80b5-80df9d523303",
+        "name": "production",
+        "org": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+      },
+      {
+        "space_guid": "a20c2936-34bf-4c1f-b1e0-4c65c9e0fbde",
+        "name": "SMOKE-1-SPACE-50ce911d81876164",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "e91deac0-d6ea-4744-b3ed-1f370ffbc7f8",
+        "name": "MySQLATS-1-SPACE-beee369903a5bbc0",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "22be2968-6885-43c3-b979-0ad7cc7a92b3",
+        "name": "p-dataflow",
+        "org": "70840789-1634-4362-bc80-adbb0e656263"
+      },
+      {
+        "space_guid": "229b5be2-d16e-4e6e-8c68-078461855cc1",
+        "name": "tests",
+        "org": "c60b1b1f-2cad-4bd6-814b-953b0ec8067c"
+      },
+      {
+        "space_guid": "c67babdf-6344-4298-9ffe-70afd7f04823",
+        "name": "173b36d5-7439-4fff-93f5-8dff56346a7c",
+        "org": "c60b1b1f-2cad-4bd6-814b-953b0ec8067c"
+      },
+      {
+        "space_guid": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d",
+        "name": "scdf",
+        "org": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+      },
+      {
+        "space_guid": "20eb5392-3f3c-4224-9bcd-622e1bedcc74",
+        "name": "b7edbf5d-ef0f-4e44-960d-d6d024243219",
+        "org": "c60b1b1f-2cad-4bd6-814b-953b0ec8067c"
+      }
+    ]
+  },
+  {
+    "users": [
+      {
+        "mborges": [
+          {
+            "space": "development",
+            "space_guid": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          },
+          {
+            "space": "test",
+            "space_guid": "8e7861b5-dcf5-43b9-8883-61d697e327f4",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          },
+          {
+            "space": "production",
+            "space_guid": "fa2728b0-2558-48c8-80b5-80df9d523303",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          },
+          {
+            "space": "scdf",
+            "space_guid": "8ebe3038-4146-4b7d-9f94-aedb5c36c80d",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          }
+        ]
+      },
+      {
+        "mborges-dev": [
+          {
+            "space": "development",
+            "space_guid": "13a07f50-b222-46df-9023-1f22ca1ab40d",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          },
+          {
+            "space": "test",
+            "space_guid": "8e7861b5-dcf5-43b9-8883-61d697e327f4",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          }
+        ]
+      },
+      {
+        "mborges-ops": [
+          {
+            "space": "production",
+            "space_guid": "fa2728b0-2558-48c8-80b5-80df9d523303",
+            "org_guid": "bf11ba16-4dc2-4008-bd32-37d41160f622"
+          }
+        ]
+      }
+    ]
+  }
+]

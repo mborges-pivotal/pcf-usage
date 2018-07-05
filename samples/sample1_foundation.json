@@ -1,0 +1,2362 @@
+[
+  {
+    "apps": [
+      {
+        "name": "p-invitations-green",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T15:55:29Z"
+      },
+      {
+        "name": "apps-manager-js-green",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "nodejs_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T18:44:55Z"
+      },
+      {
+        "name": "notifications",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "go_buildpack",
+        "space": "09d6969e-56a6-4b57-ac00-95884f10e2e6",
+        "updated": "2018-02-08T19:50:42Z"
+      },
+      {
+        "name": "p-invitations-blue",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T18:44:55Z"
+      },
+      {
+        "name": "apps-manager-js-blue",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 2,
+        "buildpack": "nodejs_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T15:55:29Z"
+      },
+      {
+        "name": "metrics-blue",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "nodejs_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:55:47Z"
+      },
+      {
+        "name": "metrics-ui-blue",
+        "memory": 64,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:55:47Z"
+      },
+      {
+        "name": "mysql-logqueue-blue",
+        "memory": 512,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:55:40Z"
+      },
+      {
+        "name": "metrics-ingestor-blue",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:55:40Z"
+      },
+      {
+        "name": "elasticsearch-logqueue-blue",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:55:40Z"
+      },
+      {
+        "name": "metrics-ingestor",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:56:07Z"
+      },
+      {
+        "name": "elasticsearch-logqueue",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:56:08Z"
+      },
+      {
+        "name": "mysql-logqueue",
+        "memory": 512,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:56:09Z"
+      },
+      {
+        "name": "metrics-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:56:36Z"
+      },
+      {
+        "name": "metrics",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs_buildpack",
+        "space": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "updated": "2018-03-23T00:58:15Z"
+      },
+      {
+        "name": "azure-service-broker-1.5.2",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs_buildpack",
+        "space": "3b0678a0-9f4f-4155-84ac-2381801f7381",
+        "updated": "2018-06-21T03:14:20Z"
+      },
+      {
+        "name": "flask-app",
+        "memory": 128,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "https://github.com/heroku/heroku-buildpack-python",
+        "space": "b1c6b5db-b807-4e3a-8113-73210e719016",
+        "updated": "2018-02-28T21:18:47Z"
+      },
+      {
+        "name": "bhp-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-27T20:19:34Z"
+      },
+      {
+        "name": "pvt-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-05-31T21:33:06Z"
+      },
+      {
+        "name": "ipso-onshore-services",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-07-02T18:27:57Z"
+      },
+      {
+        "name": "config-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-03-14T17:54:41Z"
+      },
+      {
+        "name": "config-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-03-05T15:42:21Z"
+      },
+      {
+        "name": "ipso-onshore-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-27T21:02:02Z"
+      },
+      {
+        "name": "rtd-ui-cf",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-03-14T12:22:31Z"
+      },
+      {
+        "name": "config-a404702c-1fcb-4afa-a944-c03d2d365cf4",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.5.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.8\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#9f97630 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-l...",
+        "space": "cf26731f-8764-4794-b62c-1e289f8c989f",
+        "updated": "2018-03-14T19:31:08Z"
+      },
+      {
+        "name": "dns",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-04-03T20:48:05Z"
+      },
+      {
+        "name": "eureka-d6c10c1a-f1e6-4db6-ac8a-3e5cfdd36138",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.5.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.8\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#9f97630 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-l...",
+        "space": "cf26731f-8764-4794-b62c-1e289f8c989f",
+        "updated": "2018-03-21T22:01:29Z"
+      },
+      {
+        "name": "spring-cloud-broker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.5.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.8\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#9f97630 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-l...",
+        "space": "3fcae88e-5899-4822-b9d6-aca6c94db2fa",
+        "updated": "2018-03-23T02:22:22Z"
+      },
+      {
+        "name": "spring-cloud-broker-worker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.5.0_RELEASE container-security-provider=1.11.0_RELEASE java-buildpack=\u001b[34mv4.8\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#9f97630 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-l...",
+        "space": "3fcae88e-5899-4822-b9d6-aca6c94db2fa",
+        "updated": "2018-03-23T02:22:51Z"
+      },
+      {
+        "name": "config-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-03-26T17:32:18Z"
+      },
+      {
+        "name": "config-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-03-26T19:13:02Z"
+      },
+      {
+        "name": "ipso-onshore-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-20T14:17:55Z"
+      },
+      {
+        "name": "pvt-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-05T20:29:55Z"
+      },
+      {
+        "name": "bhp-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-15T17:42:42Z"
+      },
+      {
+        "name": "ipso-onshore-services",
+        "memory": 4096,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-20T13:50:58Z"
+      },
+      {
+        "name": "config-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-04-02T20:38:16Z"
+      },
+      {
+        "name": "config-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-04-05T14:53:02Z"
+      },
+      {
+        "name": "config-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "41219ab5-5f81-4688-b445-f7990f1be8e2",
+        "updated": "2018-04-05T13:45:03Z"
+      },
+      {
+        "name": "integrationcalc-ipso-calc-service",
+        "memory": 12228,
+        "state": "STARTED",
+        "instances": 8,
+        "buildpack": "python_buildpack",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-21T19:57:19Z"
+      },
+      {
+        "name": "dtof-api-test",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/buildpack-python.git",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-15T07:32:10Z"
+      },
+      {
+        "name": "integrationcalc-ipso-proficy-service",
+        "memory": 3072,
+        "state": "STARTED",
+        "instances": 8,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-05T16:37:02Z"
+      },
+      {
+        "name": "integrationcalc-ipso-services",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 10,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-27T17:05:45Z"
+      },
+      {
+        "name": "rtd-ui-feature-depth-vs-time-comparison-dfs",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-21T15:47:17Z"
+      },
+      {
+        "name": "rtc-ui",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-21T20:39:40Z"
+      },
+      {
+        "name": "rtd-ui-develop",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-27T15:55:21Z"
+      },
+      {
+        "name": "rtd-ui",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-05-08T19:55:50Z"
+      },
+      {
+        "name": "intmancalc-ipso-services",
+        "memory": 4096,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-05-15T00:05:47Z"
+      },
+      {
+        "name": "fido-api-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "python_buildpack",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-07-02T20:36:18Z"
+      },
+      {
+        "name": "rtd-ui-172-side-panel-ability-to-handle-long-set-of-icons",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-05-16T21:01:05Z"
+      },
+      {
+        "name": "witsml-gaps",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-05-17T21:54:24Z"
+      },
+      {
+        "name": "witsml-mongo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-05-17T21:56:09Z"
+      },
+      {
+        "name": "scheduler-broker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 3,
+        "buildpack": "binary_buildpack",
+        "space": "c28b269d-5e9e-4c4b-94c0-4d0648a38bbf",
+        "updated": "2018-05-18T19:27:48Z"
+      },
+      {
+        "name": "scheduler",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 3,
+        "buildpack": "java_buildpack_offline",
+        "space": "c28b269d-5e9e-4c4b-94c0-4d0648a38bbf",
+        "updated": "2018-05-18T19:28:12Z"
+      },
+      {
+        "name": "sensors",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "a1c80bec-f35c-469e-8d0b-0d907bc0cbf6",
+        "updated": "2018-05-24T21:12:45Z"
+      },
+      {
+        "name": "asap-service",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-05-25T19:00:58Z"
+      },
+      {
+        "name": "app-usage-worker-venerable",
+        "memory": 2048,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T15:52:22Z"
+      },
+      {
+        "name": "app-usage-server-venerable",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 2,
+        "buildpack": "ruby_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T15:52:22Z"
+      },
+      {
+        "name": "app-usage-scheduler-venerable",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T15:52:22Z"
+      },
+      {
+        "name": "pivotal-account-cold",
+        "memory": 768,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "02466fbc-5f83-4eef-b813-358f8b8e8943",
+        "updated": "2018-05-29T15:56:39Z"
+      },
+      {
+        "name": "splunk-firehose-nozzle-1.0.0",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "binary_buildpack",
+        "space": "40f1c268-1695-4fa4-8ac9-0136b68e822a",
+        "updated": "2018-06-04T20:55:53Z"
+      },
+      {
+        "name": "app-usage-worker",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T18:42:09Z"
+      },
+      {
+        "name": "app-usage-scheduler",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "ruby_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T18:42:10Z"
+      },
+      {
+        "name": "app-usage-server",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "ruby_buildpack",
+        "space": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "updated": "2018-05-29T18:42:10Z"
+      },
+      {
+        "name": "pivotal-account",
+        "memory": 768,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "02466fbc-5f83-4eef-b813-358f8b8e8943",
+        "updated": "2018-05-29T18:46:07Z"
+      },
+      {
+        "name": "rtd-ui-feature-support-feedback-form",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-26T17:58:08Z"
+      },
+      {
+        "name": "rtd-ui-186-default-last-wb",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-01T21:12:46Z"
+      },
+      {
+        "name": "rtd-ui-feature-193-decouple-authentication-service",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-11T17:51:21Z"
+      },
+      {
+        "name": "rtd-ui-feature-192-remove-subscription-from-user-prefs",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-20T21:53:32Z"
+      },
+      {
+        "name": "wep-service-init",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-20T16:56:40Z"
+      },
+      {
+        "name": "asap-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-12T19:26:37Z"
+      },
+      {
+        "name": "rtc-ui-feature-dark-theme",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-19T19:27:58Z"
+      },
+      {
+        "name": "WEP-Service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-28T17:53:39Z"
+      },
+      {
+        "name": "witsml-scheduler-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-12T18:44:46Z"
+      },
+      {
+        "name": "rtc-ui-feature-archived",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-12T21:21:56Z"
+      },
+      {
+        "name": "witsml-mockservice-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-15T14:54:23Z"
+      },
+      {
+        "name": "rtc-ui-feature-admin-fixes",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-13T15:36:53Z"
+      },
+      {
+        "name": "ipso-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-28T14:06:36Z"
+      },
+      {
+        "name": "rtc-ui-feature-delete-all-the-things",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-14T15:12:29Z"
+      },
+      {
+        "name": "ipso-pdb-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-28T14:01:06Z"
+      },
+      {
+        "name": "ipso-proficy",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-14T15:40:31Z"
+      },
+      {
+        "name": "ipso-ui",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-28T15:15:49Z"
+      },
+      {
+        "name": "ecm-streaming-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-14T12:54:22Z"
+      },
+      {
+        "name": "pdb-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-14T14:20:42Z"
+      },
+      {
+        "name": "rtc-ui-feature-ie-user-img",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-14T15:24:03Z"
+      },
+      {
+        "name": "rtc-ui-bugfix-tplot-data-not-showing",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-14T18:53:14Z"
+      },
+      {
+        "name": "opentext-search-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-14T19:24:25Z"
+      },
+      {
+        "name": "witsml-pipeline-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-07-02T16:00:53Z"
+      },
+      {
+        "name": "rtd-ui-feature-202-ecd-module-ui-development",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-21T13:12:49Z"
+      },
+      {
+        "name": "wep-service-jane",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-18T21:56:12Z"
+      },
+      {
+        "name": "rtd-ui-feature-198-add-loading-indicators-plots-charts",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-20T20:01:12Z"
+      },
+      {
+        "name": "rtc-ui-feature-hover-functionality",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-19T13:31:17Z"
+      },
+      {
+        "name": "asap-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-18T17:36:37Z"
+      },
+      {
+        "name": "wep-ui-init",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-21T22:11:07Z"
+      },
+      {
+        "name": "rtc-ui-feature-card-hide-button",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-19T17:47:44Z"
+      },
+      {
+        "name": "anorm-wep-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-28T20:04:28Z"
+      },
+      {
+        "name": "rtd-ui-feature-207-update-sliding-sheet-legend",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-20T18:55:58Z"
+      },
+      {
+        "name": "neel-ipso",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-19T21:30:49Z"
+      },
+      {
+        "name": "rtc-ui-feature-ribbon-modal-actions",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-19T19:21:57Z"
+      },
+      {
+        "name": "uia-rest-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-21T21:11:38Z"
+      },
+      {
+        "name": "rtd-ui-bug-208-add-hammerjs-back",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-19T20:51:11Z"
+      },
+      {
+        "name": "rtd-ui-feature-209-adjust-application-sass",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-07-02T17:43:47Z"
+      },
+      {
+        "name": "rtd-ui-feature-180-update-theme-colors",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-20T13:06:18Z"
+      },
+      {
+        "name": "fido-optimizer-optimization",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/buildpack-python.git",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-20T15:41:12Z"
+      },
+      {
+        "name": "intmancalc-ipso-calc-service",
+        "memory": 6144,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "python_buildpack",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-21T19:57:47Z"
+      },
+      {
+        "name": "rtd-ui-master",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-20T19:31:05Z"
+      },
+      {
+        "name": "asap-ui-routes-test",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-20T21:20:08Z"
+      },
+      {
+        "name": "rtd-ui-feature-196-one-slide-sheet",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-21T21:31:49Z"
+      },
+      {
+        "name": "autoscale",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 3,
+        "buildpack": "binary_buildpack",
+        "space": "7447ba53-73a2-4e0f-b35e-8b745aa7863e",
+        "updated": "2018-06-21T03:05:39Z"
+      },
+      {
+        "name": "rtc-ui-bugfix-preferences-null-values",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-21T19:35:37Z"
+      },
+      {
+        "name": "rtd-ui-197-disable-torque-and-drag-override-inputs",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-21T15:18:06Z"
+      },
+      {
+        "name": "pdb-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-21T15:35:45Z"
+      },
+      {
+        "name": "ipso-proficy",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-21T15:38:43Z"
+      },
+      {
+        "name": "ipso-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-21T16:25:14Z"
+      },
+      {
+        "name": "ipso-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "updated": "2018-06-21T18:17:12Z"
+      },
+      {
+        "name": "wep-com.apc.its.services.wep.service-init",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-22T11:26:55Z"
+      },
+      {
+        "name": "wep-com-apc-itsservices-wep-service-init",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-22T16:38:27Z"
+      },
+      {
+        "name": "integrationcalc-pdb-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "java_buildpack_offline",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-25T14:50:37Z"
+      },
+      {
+        "name": "rtd-ui-feature-disable-torque-and-drag-override-inputs",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-25T15:17:33Z"
+      },
+      {
+        "name": "rtc-ui-feature-manage-channels",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-25T16:15:21Z"
+      },
+      {
+        "name": "rtd-ui-bug-211-bug-on-sdgs-page-ui-shrunk",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-27T14:24:06Z"
+      },
+      {
+        "name": "rtd-ui-feature-145-compare-times-day-night-tours",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-28T20:57:03Z"
+      },
+      {
+        "name": "integrationcalc-ipso-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "updated": "2018-06-27T18:20:58Z"
+      },
+      {
+        "name": "rtd-ui-feature-155-allow-export-data-for-wells",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-06-29T16:58:06Z"
+      },
+      {
+        "name": "rtd-ui-feature-189-add-version-number-display-to-ui",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-07-02T15:36:01Z"
+      },
+      {
+        "name": "rtd-ui-bug-218-quick-fix-for-tofixed-error",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "updated": "2018-07-02T18:07:53Z"
+      }
+    ]
+  },
+  {
+    "orgs": [
+      {
+        "org_guid": "f3dc1f00-57c4-45f3-a69e-133818e59506",
+        "name": "system"
+      },
+      {
+        "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029",
+        "name": "dds-dev"
+      },
+      {
+        "org_guid": "f270b2a3-f247-4b27-8876-3f30a604e90f",
+        "name": "dds-platform"
+      },
+      {
+        "org_guid": "a3f0c284-423a-4aad-bbb1-64f12a5f5e09",
+        "name": "p-spring-cloud-services"
+      },
+      {
+        "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d",
+        "name": "aaet"
+      },
+      {
+        "org_guid": "631859af-1cbf-4273-a2b6-a5f8dabfc4c2",
+        "name": "dds-devops"
+      },
+      {
+        "org_guid": "bf1d6ea4-742f-49c4-b076-4df4f2e356d6",
+        "name": "dds-aeet"
+      },
+      {
+        "org_guid": "025a400e-7a1e-4ead-8b86-6219ebaa9e30",
+        "name": "aaet-fpo"
+      },
+      {
+        "org_guid": "47aa12a1-ed87-442c-b1cc-a97c5cdd29ba",
+        "name": "splunk-nozzle-org"
+      }
+    ]
+  },
+  {
+    "service_instances": [
+      {
+        "name": "spring-cloud-broker-db",
+        "service_guid": "2399f863-2fbc-4958-b904-4797794b785a",
+        "space_guid": "3fcae88e-5899-4822-b9d6-aca6c94db2fa"
+      },
+      {
+        "name": "spring-cloud-broker-rmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "3fcae88e-5899-4822-b9d6-aca6c94db2fa"
+      },
+      {
+        "name": "witsml-rabbitmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "fido-rabbitmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "witsml2",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "config-server-public-tfs",
+        "service_guid": "be08e39f-adad-4a41-a546-bb926e56b4d2",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "IPSO-Onshore",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "fido_opt_service",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "FiDO Optimizer",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "service-registry",
+        "service_guid": "0aac1bee-2e51-4d14-a1eb-04183eb3d035",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "mysql.apc-go.user-attribute-sync",
+        "service_guid": "2399f863-2fbc-4958-b904-4797794b785a",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "Test instance RabbitMQ",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "devops-poc-rabbitmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "a1c80bec-f35c-469e-8d0b-0d907bc0cbf6"
+      },
+      {
+        "name": "rmq-ipso-offshore",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "mysql.apc-go.user-attribute-sync",
+        "service_guid": "2399f863-2fbc-4958-b904-4797794b785a",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "ipso-onshore-rabbitmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "IPSO-Calc-Service",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "IPSO-Calc-Service",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "witsmlMQ",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "integrationcalc-rabbitmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "integrationcalcmq2",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "RMQ-IPSO-CALC-DEV-K8S",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38"
+      },
+      {
+        "name": "RMQ-IPSO-CALC-TEST-K8S",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "ipso_servicesRabbitHack",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "integrationcalcdan",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "IPSO-Service",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2"
+      },
+      {
+        "name": "manCalcMQ",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "jve782-rabbitmq",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "integrationcalc_raj",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "integrationcalc_sandeep",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "integrationcalc_Dhillip",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "scheduler-broker-mysql",
+        "service_guid": "2399f863-2fbc-4958-b904-4797794b785a",
+        "space_guid": "c28b269d-5e9e-4c4b-94c0-4d0648a38bbf"
+      },
+      {
+        "name": "scheduler-mysql",
+        "service_guid": "2399f863-2fbc-4958-b904-4797794b785a",
+        "space_guid": "c28b269d-5e9e-4c4b-94c0-4d0648a38bbf"
+      },
+      {
+        "name": "scheduler-features",
+        "service_guid": "6103c2b5-cee2-4097-b6a5-089e3614414b",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      },
+      {
+        "name": "support-test",
+        "service_guid": "5bb027dd-0a72-411c-a90d-217c5a7e0a5a",
+        "space_guid": "a1c80bec-f35c-469e-8d0b-0d907bc0cbf6"
+      },
+      {
+        "name": "autoscale-dev",
+        "service_guid": "5bb027dd-0a72-411c-a90d-217c5a7e0a5a",
+        "space_guid": "b1c6b5db-b807-4e3a-8113-73210e719016"
+      },
+      {
+        "name": "integrationcalcONLY",
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319"
+      }
+    ]
+  },
+  {
+    "services": [
+      {
+        "service_guid": "b27e1d70-776a-48dd-aa9a-fa71f21a8ab5",
+        "label": "p-rabbitmq",
+        "service_broker_guid": "4fee7372-bed4-4fd7-9373-a7f9c8289a8b"
+      },
+      {
+        "service_guid": "5a3daa7c-38de-41fa-a5c7-2096f833384c",
+        "label": "p.rabbitmq",
+        "service_broker_guid": "e6d9310d-0f25-4a64-8c96-63ba1eb4d7ab"
+      },
+      {
+        "service_guid": "2399f863-2fbc-4958-b904-4797794b785a",
+        "label": "p-mysql",
+        "service_broker_guid": "e70e8962-00c6-4f00-b1fe-c1d6b75d27ab"
+      },
+      {
+        "service_guid": "099aaae6-5815-44e9-90f7-148ae5c80c62",
+        "label": "p-circuit-breaker-dashboard",
+        "service_broker_guid": "9bfa775f-f0f1-4b9d-8cb3-bcaec630455b"
+      },
+      {
+        "service_guid": "be08e39f-adad-4a41-a546-bb926e56b4d2",
+        "label": "p-config-server",
+        "service_broker_guid": "9bfa775f-f0f1-4b9d-8cb3-bcaec630455b"
+      },
+      {
+        "service_guid": "0aac1bee-2e51-4d14-a1eb-04183eb3d035",
+        "label": "p-service-registry",
+        "service_broker_guid": "9bfa775f-f0f1-4b9d-8cb3-bcaec630455b"
+      },
+      {
+        "service_guid": "6b666e79-1952-47d2-b500-8ce23bab9104",
+        "label": "azure-cosmosdb",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "4cef94be-d477-4b41-9836-c92cea8554fb",
+        "label": "azure-documentdb",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "263e1122-7778-4bf2-9342-c6317e4eff93",
+        "label": "azure-eventhubs",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "891b9b23-1c8a-43a5-ae17-c9bac471a482",
+        "label": "azure-mysqldb",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "dfd170cc-32ce-4748-8b07-541aec833172",
+        "label": "azure-postgresqldb",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "4c4afff5-a56e-4b93-8ea1-344dea7bd892",
+        "label": "azure-rediscache",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "5bac5517-4129-41f2-8b3b-50f93afec3fb",
+        "label": "azure-servicebus",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "9a11d508-5248-4670-942d-c38909c16ec7",
+        "label": "azure-sqldb",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "9a2426d6-8133-43ad-abd6-8cda97f42484",
+        "label": "azure-storage",
+        "service_broker_guid": "dc3382e8-9d9a-4b31-82fa-202abd68605e"
+      },
+      {
+        "service_guid": "6103c2b5-cee2-4097-b6a5-089e3614414b",
+        "label": "scheduler-for-pcf",
+        "service_broker_guid": "94670749-7957-42eb-b0b5-37ed09dc70ef"
+      },
+      {
+        "service_guid": "5bb027dd-0a72-411c-a90d-217c5a7e0a5a",
+        "label": "app-autoscaler",
+        "service_broker_guid": "5e943628-99ff-4cb4-a98c-bf1572e4ddeb"
+      }
+    ]
+  },
+  {
+    "spaces": [
+      {
+        "space_guid": "d38ed41b-cbc9-48d4-9077-7e3ff355dc39",
+        "name": "system",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "02466fbc-5f83-4eef-b813-358f8b8e8943",
+        "name": "pivotal-account-space",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+        "name": "test",
+        "org": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+      },
+      {
+        "space_guid": "09d6969e-56a6-4b57-ac00-95884f10e2e6",
+        "name": "notifications-with-ui",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "e9aa8255-ae3e-45fb-a12d-a1ca3fb48ca3",
+        "name": "metrics-v1-4",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "b1c6b5db-b807-4e3a-8113-73210e719016",
+        "name": "dev",
+        "org": "f270b2a3-f247-4b27-8876-3f30a604e90f"
+      },
+      {
+        "space_guid": "cf26731f-8764-4794-b62c-1e289f8c989f",
+        "name": "instances",
+        "org": "a3f0c284-423a-4aad-bbb1-64f12a5f5e09"
+      },
+      {
+        "space_guid": "3fcae88e-5899-4822-b9d6-aca6c94db2fa",
+        "name": "p-spring-cloud-services",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "f3d3e665-1227-4a17-bb3d-0c5f333c16ac",
+        "name": "scs-smoke-tests",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "3b0678a0-9f4f-4155-84ac-2381801f7381",
+        "name": "azure-service-broker-space",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+        "name": "dev",
+        "org": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+      },
+      {
+        "space_guid": "41219ab5-5f81-4688-b445-f7990f1be8e2",
+        "name": "prod",
+        "org": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+      },
+      {
+        "space_guid": "624c7f78-80d6-4cbb-a7ce-0acae41dc1de",
+        "name": "feat",
+        "org": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+      },
+      {
+        "space_guid": "335d2fa3-363d-4bd9-a862-a23866425e16",
+        "name": "dev",
+        "org": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+      },
+      {
+        "space_guid": "5a32f6a8-5c03-47a1-a62f-1f3879eb5c83",
+        "name": "test",
+        "org": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+      },
+      {
+        "space_guid": "5f36aec0-1c2b-4e89-b6f3-e80980d50b88",
+        "name": "prod",
+        "org": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+      },
+      {
+        "space_guid": "8fdd1125-e297-4b52-b0f8-cc6fc5cf2d43",
+        "name": "admin",
+        "org": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+      },
+      {
+        "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+        "name": "features",
+        "org": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+      },
+      {
+        "space_guid": "a1c80bec-f35c-469e-8d0b-0d907bc0cbf6",
+        "name": "dev",
+        "org": "631859af-1cbf-4273-a2b6-a5f8dabfc4c2"
+      },
+      {
+        "space_guid": "c28b269d-5e9e-4c4b-94c0-4d0648a38bbf",
+        "name": "scheduler",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "7447ba53-73a2-4e0f-b35e-8b745aa7863e",
+        "name": "autoscaling",
+        "org": "f3dc1f00-57c4-45f3-a69e-133818e59506"
+      },
+      {
+        "space_guid": "40f1c268-1695-4fa4-8ac9-0136b68e822a",
+        "name": "splunk-nozzle-space",
+        "org": "47aa12a1-ed87-442c-b1cc-a97c5cdd29ba"
+      }
+    ]
+  },
+  {
+    "users": [
+      {
+        "ci-user": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "prod",
+            "space_guid": "41219ab5-5f81-4688-b445-f7990f1be8e2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "frn049@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "feat",
+            "space_guid": "624c7f78-80d6-4cbb-a7ce-0acae41dc1de",
+            "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+          },
+          {
+            "space": "dev",
+            "space_guid": "335d2fa3-363d-4bd9-a862-a23866425e16",
+            "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+          },
+          {
+            "space": "test",
+            "space_guid": "5a32f6a8-5c03-47a1-a62f-1f3879eb5c83",
+            "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+          },
+          {
+            "space": "prod",
+            "space_guid": "5f36aec0-1c2b-4e89-b6f3-e80980d50b88",
+            "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+          },
+          {
+            "space": "admin",
+            "space_guid": "8fdd1125-e297-4b52-b0f8-cc6fc5cf2d43",
+            "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "ukd860@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "a1c80bec-f35c-469e-8d0b-0d907bc0cbf6",
+            "org_guid": "631859af-1cbf-4273-a2b6-a5f8dabfc4c2"
+          }
+        ]
+      },
+      {
+        "sfh004@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "mck499@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "mjq288@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "b1c6b5db-b807-4e3a-8113-73210e719016",
+            "org_guid": "f270b2a3-f247-4b27-8876-3f30a604e90f"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jha159@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "joshua.wooten@anadarko.com": []
+      },
+      {
+        "p-spring-cloud-services": [
+          {
+            "space": "instances",
+            "space_guid": "cf26731f-8764-4794-b62c-1e289f8c989f",
+            "org_guid": "a3f0c284-423a-4aad-bbb1-64f12a5f5e09"
+          }
+        ]
+      },
+      {
+        "inf638@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "hrl517@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "mef699@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "b1c6b5db-b807-4e3a-8113-73210e719016",
+            "org_guid": "f270b2a3-f247-4b27-8876-3f30a604e90f"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "abr405@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "wuq051@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "zdn151@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jcl967@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jct967@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "xzr969@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "pbraswel@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "mkm435@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "michael.bishop@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "335d2fa3-363d-4bd9-a862-a23866425e16",
+            "org_guid": "79e8d429-5d98-467f-a0d9-fd6f27eac25d"
+          }
+        ]
+      },
+      {
+        "cim032@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jcarlisl@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "tro813@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jve782@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "owq685@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "ttm501@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jej258@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "nhz675@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "wbo360@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "iwr167@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "gya376@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "eei130@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jcarlisl_t@anadarko.com": []
+      },
+      {
+        "jzo418@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "tjc368@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jve782@sample1.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "qyh257@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "ltd455@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "ipso-onshore-ci": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "splunk-firehose": []
+      },
+      {
+        "vmv497@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "gws561@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "hhp947@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "bxj907@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "jeu302@anadarko.com": [
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "txb905@anadarko.com": []
+      },
+      {
+        "frv033@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "artem.bozhko@anadarko.com": []
+      },
+      {
+        "sergii.trotsiuk@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "ievgeniia.maltseva@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "qyi597@anadarko.com": []
+      },
+      {
+        "ncz615@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "mfn330@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "wog015@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "prod",
+            "space_guid": "41219ab5-5f81-4688-b445-f7990f1be8e2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "ksf574@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "wmy688@anadarko.com": [
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "rdd852@anadarko.com": []
+      },
+      {
+        "kpl079@anadarko.com": []
+      },
+      {
+        "cd-user": [
+          {
+            "space": "dev",
+            "space_guid": "b1c6b5db-b807-4e3a-8113-73210e719016",
+            "org_guid": "f270b2a3-f247-4b27-8876-3f30a604e90f"
+          }
+        ]
+      },
+      {
+        "randy.letness@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      },
+      {
+        "dst205@anadarko.com": [
+          {
+            "space": "test",
+            "space_guid": "4a540f2e-cf49-4821-918d-8bc0b8edb6d2",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "dev",
+            "space_guid": "4302871e-2d1b-4228-b66b-dc61e0b66d38",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          },
+          {
+            "space": "features",
+            "space_guid": "77b997ba-cc25-4a09-b99e-07bea7b8f319",
+            "org_guid": "28e6a655-a501-4e07-8a25-da4b4dd6b029"
+          }
+        ]
+      }
+    ]
+  }
+]

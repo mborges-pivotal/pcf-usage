@@ -1,0 +1,1660 @@
+[
+  {
+    "apps": [
+      {
+        "name": "newrelic-broker-1.12.6",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "java_buildpack_offline",
+        "space": "a84ca760-7038-456d-b754-36de110cc502",
+        "updated": "2018-06-04T19:21:42Z"
+      },
+      {
+        "name": "dsi-service-config",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-08T14:07:48Z"
+      },
+      {
+        "name": "dsi-service-registry",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-03-08T08:20:46Z"
+      },
+      {
+        "name": "login-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-13T10:38:40Z"
+      },
+      {
+        "name": "assetvisualization",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-08T18:21:32Z"
+      },
+      {
+        "name": "equipment-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-08T15:57:50Z"
+      },
+      {
+        "name": "equipment-history-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-13T11:19:20Z"
+      },
+      {
+        "name": "etm-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-13T12:33:10Z"
+      },
+      {
+        "name": "notification-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-14T11:58:46Z"
+      },
+      {
+        "name": "service-order-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-14T13:15:32Z"
+      },
+      {
+        "name": "fatigue-tracker-api",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-13T13:08:59Z"
+      },
+      {
+        "name": "ams",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-08T17:10:33Z"
+      },
+      {
+        "name": "assettracker",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-08T17:35:16Z"
+      },
+      {
+        "name": "content-manager",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-22T12:44:39Z"
+      },
+      {
+        "name": "crowd",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-09T12:39:16Z"
+      },
+      {
+        "name": "dcp",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-22T11:19:08Z"
+      },
+      {
+        "name": "deployment-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-13T08:32:32Z"
+      },
+      {
+        "name": "ei",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-29T10:55:55Z"
+      },
+      {
+        "name": "material-match",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-04-26T16:17:33Z"
+      },
+      {
+        "name": "user-profile-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-15T09:14:22Z"
+      },
+      {
+        "name": "survey",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-15T08:51:34Z"
+      },
+      {
+        "name": "scale",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-27T14:30:52Z"
+      },
+      {
+        "name": "static",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-03T07:01:21Z"
+      },
+      {
+        "name": "excel-importer",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/dotnet-core-buildpack",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-19T12:26:00Z"
+      },
+      {
+        "name": "fatigue-tracker",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-02-13T13:11:35Z"
+      },
+      {
+        "name": "well-integrity",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-20T11:34:17Z"
+      },
+      {
+        "name": "onyx",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-04-26T06:00:15Z"
+      },
+      {
+        "name": "sso-route-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-08T08:05:42Z"
+      },
+      {
+        "name": "login-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-13T10:33:22Z"
+      },
+      {
+        "name": "scale-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T11:21:32Z"
+      },
+      {
+        "name": "dsi-service-registry-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-02-22T12:02:51Z"
+      },
+      {
+        "name": "onyx-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-04-25T09:50:32Z"
+      },
+      {
+        "name": "dcp-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-28T08:03:00Z"
+      },
+      {
+        "name": "service-order-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T06:14:59Z"
+      },
+      {
+        "name": "notification-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T06:29:46Z"
+      },
+      {
+        "name": "equipment-service-dev",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-02T07:39:37Z"
+      },
+      {
+        "name": "equipment-history-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T05:59:44Z"
+      },
+      {
+        "name": "etm-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T06:41:45Z"
+      },
+      {
+        "name": "ams-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-02-08T17:03:13Z"
+      },
+      {
+        "name": "assettracker-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-20T11:21:45Z"
+      },
+      {
+        "name": "assetvisualization-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-28T13:16:15Z"
+      },
+      {
+        "name": "ei-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T11:55:59Z"
+      },
+      {
+        "name": "ks800-sensor-pond-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-21T08:12:51Z"
+      },
+      {
+        "name": "rental-asset-planner-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-29T15:32:25Z"
+      },
+      {
+        "name": "rental-asset-planner",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-29T17:45:23Z"
+      },
+      {
+        "name": "dsi-service-registry-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-22T12:09:09Z"
+      },
+      {
+        "name": "sso-route-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-11T08:50:48Z"
+      },
+      {
+        "name": "login-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-13T10:35:42Z"
+      },
+      {
+        "name": "onyx-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-04-25T09:51:57Z"
+      },
+      {
+        "name": "ei-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-07-03T14:06:47Z"
+      },
+      {
+        "name": "material-match-demo",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-04-26T11:30:19Z"
+      },
+      {
+        "name": "equipment-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-05-08T15:40:16Z"
+      },
+      {
+        "name": "equipment-history-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-13T10:04:21Z"
+      },
+      {
+        "name": "service-order-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-14T13:10:03Z"
+      },
+      {
+        "name": "scale-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-27T12:47:16Z"
+      },
+      {
+        "name": "content-manager-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-22T12:31:39Z"
+      },
+      {
+        "name": "content-manager-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-22T12:31:35Z"
+      },
+      {
+        "name": "assetvisualization-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-08T18:16:06Z"
+      },
+      {
+        "name": "dcp-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-22T11:13:44Z"
+      },
+      {
+        "name": "data-importer-dev",
+        "memory": 3072,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-21T11:03:57Z"
+      },
+      {
+        "name": "well-integrity-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-20T11:45:50Z"
+      },
+      {
+        "name": "import-manager-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-04-26T16:11:06Z"
+      },
+      {
+        "name": "fatigue-tracker-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-02-13T13:28:29Z"
+      },
+      {
+        "name": "tally-manager-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-02-15T11:33:54Z"
+      },
+      {
+        "name": "dsi-maestro",
+        "memory": 512,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-21T08:03:23Z"
+      },
+      {
+        "name": "fatigue-tracker-api-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-02-13T13:02:46Z"
+      },
+      {
+        "name": "tally-manager-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-15T11:36:12Z"
+      },
+      {
+        "name": "fatigue-tracker-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-13T13:14:57Z"
+      },
+      {
+        "name": "dsi-service-config-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-02-08T13:09:06Z"
+      },
+      {
+        "name": "dsi-service-config-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-08T13:36:09Z"
+      },
+      {
+        "name": "ams-demo",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-02-08T17:07:44Z"
+      },
+      {
+        "name": "well-integrity-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-20T11:28:17Z"
+      },
+      {
+        "name": "access-management-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-05-30T14:53:29Z"
+      },
+      {
+        "name": "access-management-api-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-05-30T15:00:41Z"
+      },
+      {
+        "name": "access-management-api",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-30T15:03:36Z"
+      },
+      {
+        "name": "access-management",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-30T15:06:04Z"
+      },
+      {
+        "name": "ad-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-05-31T05:53:53Z"
+      },
+      {
+        "name": "ad-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-31T06:28:29Z"
+      },
+      {
+        "name": "notification-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-03-07T11:26:35Z"
+      },
+      {
+        "name": "ei-admin-dev",
+        "memory": 3072,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-05T09:50:30Z"
+      },
+      {
+        "name": "api-manager-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T12:33:40Z"
+      },
+      {
+        "name": "import-manager-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-04-26T16:10:49Z"
+      },
+      {
+        "name": "import-manager",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-04-26T16:16:46Z"
+      },
+      {
+        "name": "onyx-admin-demo",
+        "memory": 3096,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-10T09:49:37Z"
+      },
+      {
+        "name": "ei-admin-demo",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-05-16T14:23:30Z"
+      },
+      {
+        "name": "ei-admin",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-16T14:28:31Z"
+      },
+      {
+        "name": "onyx-admin",
+        "memory": 4096,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-10T09:54:54Z"
+      },
+      {
+        "name": "onyx-admin-dev",
+        "memory": 3096,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-10T09:49:10Z"
+      },
+      {
+        "name": "material-match-dev",
+        "memory": 3096,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-05T09:55:53Z"
+      },
+      {
+        "name": "frm-redirect",
+        "memory": 32,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-04-04T08:27:42Z"
+      },
+      {
+        "name": "ad-image-store-service-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-22T12:00:24Z"
+      },
+      {
+        "name": "ad-image-store-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-22T12:11:43Z"
+      },
+      {
+        "name": "material-finder-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-13T14:17:58Z"
+      },
+      {
+        "name": "material-finder-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE open-jdk-like-jre=1.8.0_1...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-05-22T13:11:33Z"
+      },
+      {
+        "name": "material-finder",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-22T13:18:40Z"
+      },
+      {
+        "name": "cloudfish-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-05-28T12:10:11Z"
+      },
+      {
+        "name": "ks800-sensor-pond-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-11T14:16:32Z"
+      },
+      {
+        "name": "ks800-sensor-pond",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.2.0_RELEASE container-security-provider=1.8.0_RELEASE java-buildpack=\u001b[34mv4.5\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#ffeefb9 java-main java-opts jvmkill-agent=1.10.0_RELEASE new-relic-agent=3.41.0 op...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-04-23T12:36:02Z"
+      },
+      {
+        "name": "cloudfish",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-05-28T12:13:01Z"
+      },
+      {
+        "name": "ad-image-store-service-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-22T12:07:47Z"
+      },
+      {
+        "name": "error-pages-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-13T10:52:40Z"
+      },
+      {
+        "name": "error-pages",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-13T10:57:17Z"
+      },
+      {
+        "name": "rental-asset-planner-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-29T15:56:57Z"
+      },
+      {
+        "name": "not-found",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-25T12:21:51Z"
+      },
+      {
+        "name": "error-pages-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-13T10:55:20Z"
+      },
+      {
+        "name": "apps-manager-js-blue",
+        "memory": 128,
+        "state": "STARTED",
+        "instances": 6,
+        "buildpack": "staticfile_buildpack",
+        "space": "e192b914-4be3-46bd-a172-1c519be6ee21",
+        "updated": "2018-06-04T19:14:27Z"
+      },
+      {
+        "name": "apps-manager-js-green",
+        "memory": 128,
+        "state": "STOPPED",
+        "instances": 6,
+        "buildpack": "staticfile_buildpack",
+        "space": "e192b914-4be3-46bd-a172-1c519be6ee21",
+        "updated": "2018-06-04T18:25:06Z"
+      },
+      {
+        "name": "flocvisualizer-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-05-28T08:20:56Z"
+      },
+      {
+        "name": "cloudfish-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-04T06:45:45Z"
+      },
+      {
+        "name": "fatigue-tracker-api-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-01T11:58:13Z"
+      },
+      {
+        "name": "pivotal-account-cold",
+        "memory": 1024,
+        "state": "STOPPED",
+        "instances": 2,
+        "buildpack": "java_buildpack_offline",
+        "space": "3629a553-0593-4209-8f19-711e6f9ad7a4",
+        "updated": "2018-06-04T18:26:49Z"
+      },
+      {
+        "name": "p-invitations-green",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "nodejs",
+        "space": "e192b914-4be3-46bd-a172-1c519be6ee21",
+        "updated": "2018-06-04T19:14:26Z"
+      },
+      {
+        "name": "pivotal-account",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 2,
+        "buildpack": "java_buildpack_offline",
+        "space": "3629a553-0593-4209-8f19-711e6f9ad7a4",
+        "updated": "2018-06-04T19:16:26Z"
+      },
+      {
+        "name": "elasticsearch-logqueue-blue",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:05Z"
+      },
+      {
+        "name": "mysql-logqueue-blue",
+        "memory": 512,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:05Z"
+      },
+      {
+        "name": "metrics-ingestor-blue",
+        "memory": 256,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:05Z"
+      },
+      {
+        "name": "metrics-blue",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "nodejs_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:29:51Z"
+      },
+      {
+        "name": "metrics-ui-blue",
+        "memory": 64,
+        "state": "STOPPED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:14Z"
+      },
+      {
+        "name": "elasticsearch-logqueue",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:40Z"
+      },
+      {
+        "name": "mysql-logqueue",
+        "memory": 512,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:41Z"
+      },
+      {
+        "name": "metrics-ingestor",
+        "memory": 256,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "binary_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:27:43Z"
+      },
+      {
+        "name": "metrics-ui",
+        "memory": 64,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "updated": "2018-06-12T14:28:11Z"
+      },
+      {
+        "name": "assettracker-admin-dev",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-02T12:38:18Z"
+      },
+      {
+        "name": "moved-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-13T08:59:00Z"
+      },
+      {
+        "name": "moved-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-13T09:01:34Z"
+      },
+      {
+        "name": "moved",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-13T10:06:06Z"
+      },
+      {
+        "name": "sso-route-service",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-12T11:58:27Z"
+      },
+      {
+        "name": "excel-importer-dev",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/dotnet-core-buildpack",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-19T12:16:36Z"
+      },
+      {
+        "name": "excel-importer-demo",
+        "memory": 2048,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "https://github.com/cloudfoundry/dotnet-core-buildpack",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-19T12:12:45Z"
+      },
+      {
+        "name": "assetvisualization-admin-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-28T12:49:15Z"
+      },
+      {
+        "name": "redirect-cf-app-well-life",
+        "memory": 32,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-21T08:25:45Z"
+      },
+      {
+        "name": "redirect-cf-app-well-life",
+        "memory": 32,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-21T08:30:56Z"
+      },
+      {
+        "name": "redirect-cf-app-well-life",
+        "memory": 32,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "staticfile_buildpack",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-21T08:35:19Z"
+      },
+      {
+        "name": "not-found-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-06-25T11:51:44Z"
+      },
+      {
+        "name": "not-found-demo",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "updated": "2018-06-25T12:11:48Z"
+      },
+      {
+        "name": "ees-dev",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE open-jdk-...",
+        "space": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "updated": "2018-07-03T14:50:43Z"
+      },
+      {
+        "name": "sso",
+        "memory": 1024,
+        "state": "STARTED",
+        "instances": 1,
+        "buildpack": "client-certificate-mapper=1.6.0_RELEASE container-security-provider=1.13.0_RELEASE java-buildpack=\u001b[34mv4.10\u001b[0m-offline-https://github.com/cloudfoundry/java-buildpack.git#978e329 java-main java-opts java-security jvmkill-agent=1.12.0_RELEASE new-relic...",
+        "space": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "updated": "2018-06-29T10:21:32Z"
+      }
+    ]
+  },
+  {
+    "orgs": [
+      {
+        "org_guid": "4030bd85-51fc-4e0e-8732-3bf0d548a245",
+        "name": "system"
+      },
+      {
+        "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48",
+        "name": "sample-demo"
+      },
+      {
+        "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67",
+        "name": "sample-development"
+      },
+      {
+        "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff",
+        "name": "sample-production"
+      },
+      {
+        "org_guid": "14b93b67-b50a-40be-8209-94fabb277851",
+        "name": "NewRelicServiceBroker-service-org"
+      }
+    ]
+  },
+  {
+    "service_instances": [
+      {
+        "name": "newrelic",
+        "service_guid": "8ea61c17-bf73-4841-9d49-af9d17ffaec7",
+        "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271"
+      }
+    ]
+  },
+  {
+    "services": [
+      {
+        "service_guid": "8ea61c17-bf73-4841-9d49-af9d17ffaec7",
+        "label": "newrelic",
+        "service_broker_guid": "55a274ce-2259-4a57-a2b0-132a7858bb15"
+      },
+      {
+        "service_guid": "4a5dd3dd-4eed-4ca5-b1b4-7149357b1e9d",
+        "label": "nfs",
+        "service_broker_guid": "29e5194a-36e3-4afe-a63a-742a800e4a7f"
+      }
+    ]
+  },
+  {
+    "spaces": [
+      {
+        "space_guid": "e192b914-4be3-46bd-a172-1c519be6ee21",
+        "name": "system",
+        "org": "4030bd85-51fc-4e0e-8732-3bf0d548a245"
+      },
+      {
+        "space_guid": "3629a553-0593-4209-8f19-711e6f9ad7a4",
+        "name": "pivotal-account-space",
+        "org": "4030bd85-51fc-4e0e-8732-3bf0d548a245"
+      },
+      {
+        "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+        "name": "default",
+        "org": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+      },
+      {
+        "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+        "name": "default",
+        "org": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+      },
+      {
+        "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+        "name": "default",
+        "org": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+      },
+      {
+        "space_guid": "a84ca760-7038-456d-b754-36de110cc502",
+        "name": "NewRelicServiceBroker-service-space",
+        "org": "14b93b67-b50a-40be-8209-94fabb277851"
+      },
+      {
+        "space_guid": "b88b6892-974a-4dce-9879-d9ea4f8192d9",
+        "name": "metrics-v1-4",
+        "org": "4030bd85-51fc-4e0e-8732-3bf0d548a245"
+      }
+    ]
+  },
+  {
+    "users": [
+      {
+        "thomas.bembridge@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "stian.fredriksen@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "liwei.wang@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "bjornmichael.scharoba@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "havard.bjurholt@systek.no": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "Leo.Jiang@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "bobby.lindsey@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          }
+        ]
+      },
+      {
+        "clayton.holland@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "juan.arjona@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "naga.aripaka@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "john.hutchinson@technipfmc.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "fredrik.sorensen@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "karljorgen.overa@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "mikaelrino.solstad@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          }
+        ]
+      },
+      {
+        "circleci": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "oysteinjardar.songstad@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          }
+        ]
+      },
+      {
+        "tomasz.wrona@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "mimoze.lladrovci@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      },
+      {
+        "bjorn.sundby@sample2.com": [
+          {
+            "space": "default",
+            "space_guid": "83b9d0bc-11d8-4237-8d47-670ee373c089",
+            "org_guid": "f4919a48-51ad-431c-bda1-66933c6b2c48"
+          },
+          {
+            "space": "default",
+            "space_guid": "ad0be4a8-1751-460b-9fba-462b744b8311",
+            "org_guid": "682f587f-a668-44ac-9fbe-a399d4ae5e67"
+          },
+          {
+            "space": "default",
+            "space_guid": "6ff5f045-6bf8-43b7-984b-e588f31e0271",
+            "org_guid": "2fcdb4fa-75f4-4f56-8c8c-260e608c57ff"
+          }
+        ]
+      }
+    ]
+  }
+]
