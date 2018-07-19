@@ -146,15 +146,15 @@ printf "\nCreated ${PREFIX}_users.json!"
 ###############################################
 create_orgs() {
   printf "\ncreating ${PREFIX}_orgs.json file...\n"
-  cf curl "/v2/organizations" | jq '{orgs: [.resources[] | {org_guid: .metadata.guid, name: .entity.name }]}' > ${PREFIX}_orgs.json
+  read_pages "/v2/organizations?results-per-page=100" "orgs" "{org_guid: .metadata.guid, name: .entity.name }"
 }
 
 ###############################################
 # CREATE_SPACES - List all spaces into PREFIX_spaces.json
 ###############################################
 create_spaces() {
-printf "\ncreating ${PREFIX}_spaces.json file...\n"
-cf curl "/v2/spaces" | jq '{spaces: [.resources[] | {space_guid: .metadata.guid, name: .entity.name, org: .entity.organization_guid }]}' > ${PREFIX}_spaces.json
+  printf "\ncreating ${PREFIX}_spaces.json file...\n"
+  read_pages "/v2/spaces?results-per-page=100" "spaces" "{name: .entity.name, space_guid: .metadata.guid, org: .entity.organization_guid }"
 }
 
 ###############################################
@@ -162,23 +162,23 @@ cf curl "/v2/spaces" | jq '{spaces: [.resources[] | {space_guid: .metadata.guid,
 ###############################################
 create_services() {
   printf "\ncreating ${PREFIX}_services.json file...\n"
-  cf curl "/v2/services" | jq '{services: [.resources[] | {service_guid: .metadata.guid, label: .entity.label, service_broker_guid: .entity.service_broker_guid }]}' > ${PREFIX}_services.json
+  read_pages "/v2/services?results-per-page=100" "services" "{service_guid: .metadata.guid, label: .entity.label, service_broker_guid: .entity.service_broker_guid }"
 }
 
 ###############################################
 # CREATE_APPS - List all apps into PREFIX_apps.json
 ###############################################
 create_service_instances() {
-printf "\ncreating ${PREFIX}_service_instances.json file...\n"
-read_pages "/v2/service_instances?results-per-page=100" "service_instances" "{name: .entity.name, service_guid: .entity.service_guid, space_guid: .entity.space_guid }"
+  printf "\ncreating ${PREFIX}_service_instances.json file...\n"
+  read_pages "/v2/service_instances?results-per-page=100" "service_instances" "{name: .entity.name, service_guid: .entity.service_guid, space_guid: .entity.space_guid }"
 }
 
 ###############################################
 # CREATE_APPS - List all apps into PREFIX_apps.json
 ###############################################
 create_apps() {
-printf "\ncreating ${PREFIX}_apps.json file...\n"
-read_pages "/v2/apps?results-per-page=100" "apps" "{name: .entity.name, memory: .entity.memory, state: .entity.state, instances: .entity.instances, buildpack:  (if .entity.buildpack == null then .entity.detected_buildpack else .entity.buildpack end), space: .entity.space_guid, updated: .entity.package_updated_at}"
+  printf "\ncreating ${PREFIX}_apps.json file...\n"
+  read_pages "/v2/apps?results-per-page=100" "apps" "{name: .entity.name, memory: .entity.memory, state: .entity.state, instances: .entity.instances, buildpack:  (if .entity.buildpack == null then .entity.detected_buildpack else .entity.buildpack end), space: .entity.space_guid, updated: .entity.package_updated_at}"
 }
 
 ###############################################
