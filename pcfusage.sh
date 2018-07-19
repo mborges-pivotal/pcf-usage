@@ -120,7 +120,7 @@ c=1
 while read username orgs_url spaces_url
 do
 
-  echo "Collecing orgs and spaces for ${username}..."
+  echo "Collecting orgs and spaces for ${username}..."
 
   #user_orgs=$(cf curl $orgs_url)
   #orgs=$(echo $user_orgs | jq -r "{ \"${username}\" : [.resources[] | .entity.name ]}")
@@ -229,10 +229,9 @@ elif [ "$CMD" == "ALL" ]; then
   create_apps
   create_services
   create_service_instances
-  #create_service_brokers
   combine_files
 else 
-  echo "Invalide command $CMD"
+  echo "Invalid command $CMD"
   exit 1
 fi
 
