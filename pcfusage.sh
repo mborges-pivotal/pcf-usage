@@ -160,14 +160,6 @@ cf curl "/v2/spaces" | jq '{spaces: [.resources[] | {space_guid: .metadata.guid,
 ###############################################
 # CREATE_SERVICE - List all service brokers
 ###############################################
-create_service_brokers() {
-  printf "\ncreating ${PREFIX}_service_brokers.json file...\n"
-  cf curl "/v2/service_brokers" | jq '{service_brokers: [.resources[] | {service_broker_guid: .metadata.guid, name: .entity.name }]}' > ${PREFIX}_service_brokers.json
-}
-
-###############################################
-# CREATE_SERVICE - List all service brokers
-###############################################
 create_services() {
   printf "\ncreating ${PREFIX}_services.json file...\n"
   cf curl "/v2/services" | jq '{services: [.resources[] | {service_guid: .metadata.guid, label: .entity.label, service_broker_guid: .entity.service_broker_guid }]}' > ${PREFIX}_services.json
