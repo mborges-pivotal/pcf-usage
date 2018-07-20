@@ -106,40 +106,9 @@ echo "Done. Created file ${PREFIX}_${NAME}.json"
 # CREATE_USERS - List all users into PREFIX_users.json
 ###############################################
 create_users() {
-
-printf "\ncreating ${PREFIX}_users.json file...\n"  
-IFS=$'\n' read -r -d '' line <<"EOF"  
-select (.entity.username | test("system_*|smoke_tests|admin|MySQL*|push_apps*"; "i") | not)? |
-{guid: .metadata.guid, username: .entity.username, spaces: .entity.spaces_url, orgs: .entity.organizations_url}
-EOF
-#cf curl "/v2/users" | jq "$(echo $line)" | jq -r '.[] | "\(.username) \(.orgs) \(.spaces) "' > ${PREFIX}_users.txt
-read_pages "/v2/users?results-per-page=100" "users" "$line"
-jq -r '.users[] | "\(.username) \(.orgs) \(.spaces) "' ${PREFIX}_users.json > ${PREFIX}_users.txt
-
-c=1
-while read username orgs_url spaces_url
-do
-
-  echo "Collecting orgs and spaces for ${username}..."
-
-  #user_orgs=$(cf curl $orgs_url)
-  #orgs=$(echo $user_orgs | jq -r "{ \"${username}\" : [.resources[] | .entity.name ]}")
-  #echo $orgs > userOrg_${c}.json
-
-  user_spaces=$(cf curl $spaces_url)
-  spaces=$(echo $user_spaces | jq -r "{\"${username}\": [.resources[] | {space: .entity.name, space_guid: .metadata.guid, org_guid: .entity.organization_guid} ]}")
-  echo $spaces > user_${c}.json
-
-  c=$((c + 1))
-done < ${PREFIX}_users.txt
-
-jq -s "{users: [.[]]}" user_*.json > ${PREFIX}_users.json
-rm ${PREFIX}_users.txt user_*.json
-
-printf "\nCreated ${PREFIX}_users.json!"
-
+  printf "\ncreating ${PREFIX}_users.json file...\n"
+  read_pages "/v2/users?results-per-page=100" "users" "select (.entity.username | test(\"system_*|smoke_tests|admin|MySQL*|push_apps*\"; \"i\") | not)? | {username: .entity.username}"
 }
- 
 
 ###############################################
 # CREATE_ORGS - List all organizations into PREFIX_orgs.json
