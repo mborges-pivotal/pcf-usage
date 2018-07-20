@@ -151,7 +151,7 @@ create_apps() {
 }
 
 ###############################################
-# COMBINE_FILES Combine all json files into previx_foundation.json
+# COMBINE_FILES Combine all json files into prefix_foundation.json
 ###############################################
 combine_files() {
   jq --slurp . ${PREFIX}_*.json > ${PREFIX}_foundation.bkp
