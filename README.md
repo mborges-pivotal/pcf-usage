@@ -39,8 +39,27 @@ In the very first cell we load the file you captured with the _pcfusage.sh_ scri
 ```
 file = "/Users/mborges/Tools/PCF/scripts/borgescloud_foundation.json"
 capture_date = datetime.datetime(2018, 6, 26, 0, 0)
-diego_cell = {"number_of": 4, "vcpu": 4, "ram_gb": 32, "disk_gb": 32 }
+diego_cell = {"number_of": 4, "vcpu": 4, "ram_gb": 32, "disk_gb": 32, "operators": 2 }
 ```
+
+> The diego_cell structure provides metadata for the foundation, hence
+> the _operators_ field we'll use for calculation operation efficiency like
+> ops to apps or ops to containers ratios
 
 In the first cell we create the dataframes that are used in the following cells. Each cell tries to look at the data from the 5s framework. 
 
+<<<<<<< HEAD
+## Exporting notebooks
+[jupyter can convert notebooks](https://nbconvert.readthedocs.io/en/latest/) to various formats to make it easier to share. We're exploring PDF, HTML and even reveal.js 
+
+
+[mactex](http://www.tug.org/mactex/)
+
+```
+jupyter nbconvert --to PDF --template hidecode pcf_foundation.ipynb
+```
+
+We have a table that is too wide and the PDF generation is cutting it out. 
+[Creating PDF in landscape orientation](https://stackoverflow.com/questions/29218190/how-to-get-landscape-orientation-when-converting-ipython-notebook-to-pdf/36718539) then run pdftext to convert to PDF. I notice the PDF bookmarks when converting directly to PDF were gone.
+=======
+>>>>>>> 8e64c05483b3bd9c13a855ff45b82ad4a43d3b56
