@@ -185,6 +185,22 @@ create_service_instances() {
 }
 
 ###############################################
+# CREATE_USER_PROVIDED_SERVICE_INSTANCES - List all user provided service instances
+###############################################
+create_user_provided_service_instances() {
+  printf "\ncreating ${PREFIX}_user_provided_service_instances.json file...\n"
+  read_pages "/v2/user_provided_service_instances?results-per-page=100" "user_provided_service_instances" "{name: .entity.name, service_instance_guid: .metadata.guid, space_guid: .entity.space_guid }"
+}
+
+###############################################
+# CREATE_SERVICE_BINDINGS - List all service bindings
+###############################################
+create_service_bindings() {
+  printf "\ncreating ${PREFIX}_service_bindings.json file...\n"
+  read_pages "/v2/service_bindings?results-per-page=100" "service_bindings" "{app_guid: .entity.app_guid , service_instance_guid: .entity.service_instance_guid}"
+}
+
+###############################################
 # CREATE_APPS - List all apps into PREFIX_apps.json
 ###############################################
 create_apps() {
@@ -204,12 +220,14 @@ apps_guids=$(cat ${PREFIX}_final_apps.json | jq -r ".apps[].app_guid")
 rm ${PREFIX}_final_apps.json
 
 # printf '%s\n' "${apps_guids[@]}"
+total_apps=$(echo "${apps_guids[@]}" | wc -l)
 
 printf "\nGenerating non system apps service bindings...\n\n"
 c=0
 while read -r line; do
     read_pages "/v2/apps/${line}/service_bindings?results-per-page=100" "apps_srv_binding_${c}" "{app_guid: .entity.app_guid, service_instance_guid: .entity.service_instance_guid, service_name: .entity.name}" TRUE
     c=$((c + 1))
+    echo -ne "Apps read so far ${c} of ${total_apps}\r"
 done <<< "$apps_guids"
 printf "\nSearched for service bindings for ${c} apps.\n\n"
 
@@ -220,7 +238,6 @@ mv ${PREFIX}_apps_srv_binding.bkp ${PREFIX}_apps_srv_binding.json
 echo "Done. Created file ${PREFIX}_apps_srv_binding.json"
 
 }
-
 
 ###############################################
 # COMBINE_FILES Combine all json files into prefix_foundation.json
@@ -235,11 +252,26 @@ combine_files() {
 
 
 ###############################################
+# Helper functions
+###############################################
+jq_exists() {
+  command -v jq >/dev/null 2>&1
+}
+
+error_and_exit() {
+  echo "$1" && exit 1
+}
+
+###############################################
 ########## RUNNING ###############
 ###############################################
 
 if [ "$#" -lt 1 ]; then
     usage_and_exit
+fi
+
+if ! jq_exists; then
+    error_and_exit "jq command not found. Please install jq to support set-vm-type functionality (https://stedolan.github.io/jq/download/)"
 fi
 
 PREFIX=${1:-}
@@ -256,13 +288,14 @@ elif [ "$CMD" == "ALL" ]; then
   # Created foundation file, needed for CSV step below
   create_orgs
   create_spaces
-  create_users
+#  create_users
   create_apps
   create_services
   create_service_instances
+  create_user_provided_service_instances
+  create_service_bindings
   combine_files
 else 
   echo "Invalid command $CMD"
   exit 1
 fi
-
